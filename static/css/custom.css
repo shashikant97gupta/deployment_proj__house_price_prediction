@@ -1,0 +1,28 @@
+.form_wrapper {
+    height: 500px;
+    width: 700px;
+    background-color: #7EF7FE;
+    margin: 100px auto;
+}
+
+.form_wrapper h2 {
+    margin-left: 22%;
+    padding-top: 8px;
+}
+
+.form_wrapper .btm-wrap {
+background-color: #7EF7FE;
+padding : 16px 0px;
+}
+
+.form_wrapper form {
+    padding-top: 16px;
+}
+
+.form_wrapper div label {
+    margin-left: 20px;
+}
+
+.form_wrapper form button {
+    margin-left: 20px;
+}

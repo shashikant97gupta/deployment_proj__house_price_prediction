@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../static/css/custom.css" />
+    </head>
+    <body>
+        <div class="form_wrapper">
+            <h2>USA House Price Prediction</h2>
+        <form action="/data" method="post">
+             <div class="form-group">
+                <label for="formGroupExampleInput1">Income (in Dollars-$)</label>
+                 <input type="number" class="form-control" id="formGroupExampleInput1" name="income" placeholder="Please Enter Average Area Income" required />
+             </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput2">House Age (in Years)</label>
+                <input type="number" class="form-control" id="formGroupExampleInput2" name="house age" placeholder="Please Enter House Age" required />
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput3">Number of Rooms (in counting number)</label>
+                <input type="number" class="form-control" id="formGroupExampleInput3" name="number of rooms" placeholder="Please Enter Number of Rooms" required />
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput4">Number of Bedrooms (in counting number)</label>
+                <input type="number" class="form-control" id="formGroupExampleInput4" name="number of bedrooms" placeholder="Please Enter Number of Bedrooms" required />
+            </div>
+
+            <div class="form-group">
+                <label for="formGroupExampleInput5">Population (in counting number)</label>
+                <input type="number" class="form-control" id="formGroupExampleInput5" name="population" placeholder="Please Enter Area Population" required />
+            </div>
+
+            <div class="btm-wrap"><button type="submit" class="btn btn-primary">Check Result</button></div>
+        </form>
+        </div>
+    </body>
+</html>
